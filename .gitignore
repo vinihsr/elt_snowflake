@@ -1,0 +1,16 @@
+# Local Virtual Environment
+venv/
+.env
+
+# dbt Artifacts
+target/
+dbt_packages/
+logs/
+
+# Snowflake/dbt Credentials
+profiles.yml
+
+# Docker/OS Clutter
+.DS_Store
+__pycache__/
+*.pyc
